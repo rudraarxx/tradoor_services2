@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trapdoor</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+</head>
+<body>
+                                                              <!-- navbar start -->
+
+  <nav role="navigation" class="fixed-top">
+    <div id="menuToggle">
+      <!--A fake / hidden checkbox is used as click reciever, so you can use the :checked selector on it.-->
+      <input type="checkbox" />
+  
+      <!--Some spans to act as a hamburger.-->
+      <span></span>
+      <span></span>
+      <span></span>
+  
+      <!--Too bad the menu has to be inside of the button but hey, it's pure CSS magic.-->
+      <ul id="menu" class="text-center">
+        <a href="#"><li>Home</li></a>
+        <a href="#"><li>About us</li></a>
+        <a href="#"><li>Explore work</li></a>
+        <a href="#"><li>Services</li></a>
+        <a href="https://erikterwan.com/" target="_blank"><li>Contact us</li></a>
+      </ul>
+    </div>
+    <a href="#" class="logo d-block text-center"><span>Trap</span>door</a>
+    <div class="right-nav float-end">
+       <a href="#" class="me-3 btn border hvr-bounce-to-right">Client <span>Login</span></a>
+       <a href="#" class="me-3 btn border hvr-bounce-to-right">Join as <span>Contractor</span></a>
+    </div>
+  </nav>
+
+                                                              <!-- navbar end -->
+                                                              <!-- hero-page start -->
+  <div class="container-fluid hero-pg mt-lg-5">
+    <div class="row">
+    <div class="col-lg-6 main-content">
+      <div class="content ps-3">
+        <h5 class="highlight">We are</h5>
+        <h1 class="text-uppercase">Trapdoor</h1>
+        <h5>Transform your spaces to heaven</h5>
+        <a class="btn rounded border mt-2 hvr-bounce-to-right" href="#abt-us">About us</a>
+      </div>
+    </div>
+    <div class="col-lg-6 main-slides mt-lg-5">
+      <div class="swiper heroSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide rounded overflow-hidden">
+            <img src="./assets/main-pg/1.jpg" width="100%" height="400px" alt="">
+          </div>
+          <div class="swiper-slide rounded overflow-hidden">
+            <img src="./assets/main-pg/2.jpg" width="100%" height="400px" alt="">
+          </div>
+          <div class="swiper-slide rounded overflow-hidden">
+            <img src="./assets/main-pg/3.jpg" width="100%" height="400px" alt="">
+          </div>
+          <div class="swiper-slide rounded overflow-hidden">
+            <img src="./assets/main-pg/4.jpg" width="100%" height="400px" alt="">
+          </div>
+          <div class="swiper-slide rounded overflow-hidden">
+            <img src="./assets/main-pg/5.jpg" width="100%" height="400px" alt="">
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div> 
+      </div>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide rounded overflow-hidden">
+            <img src="./assets/main-pg/1.jpg" width="100%" height="400px" alt="">
+          </div>
+          <div class="swiper-slide rounded overflow-hidden">
+            <img src="./assets/main-pg/2.jpg" width="100%" height="400px" alt="">
+          </div>
+          <div class="swiper-slide rounded overflow-hidden">
+            <img src="./assets/main-pg/3.jpg" width="100%" height="400px" alt="">
+          </div>
+          <div class="swiper-slide rounded overflow-hidden">
+            <img src="./assets/main-pg/4.jpg" width="100%" height="400px" alt="">
+          </div>
+          <div class="swiper-slide rounded overflow-hidden">
+            <img src="./assets/main-pg/5.jpg" width="100%" height="400px" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    </div>
+  </div>
+                                                       <!-- second-page start -->
+  
+   <div class="container-fluid second-pg mt-lg-5">
+    <div class="row">
+       <div class="col-lg-4 second-pg-left ps-3">
+         <h3><span>700+ projects</span><br>all over the world</h3>
+         <p>Trapdoor services is an established, high-end architecture and luxury interior design company based in Mumbai, India. We provide a complete, tailored service covering each and every aspect of your project.</p>
+         <a href="" class="btn border rounded hvr-bounce-to-right">Explore more</a>
+       </div>
+       <div class="col-lg-8 second-pg-right">
+          <div class="swiper secondpgSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide rounded overflow-hidden">
+                <!-- <img src="./assets/second-pg/1.jpg" alt=""> -->
+              </div>
+              <div class="swiper-slide rounded overflow-hidden">
+                <!-- <img src="./assets/second-pg/2.jpg" alt=""> -->
+              </div>
+              <div class="swiper-slide rounded overflow-hidden">
+                <!-- <img src="./assets/second-pg/3.jpg" alt=""> -->
+              </div>
+              <div class="swiper-slide rounded overflow-hidden">
+                <!-- <img src="./assets/second-pg/4.jpg" alt=""> -->
+              </div>
+              <div class="swiper-slide rounded overflow-hidden">
+                <!-- <img src="./assets/second-pg/5.jpg" alt=""> -->
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div> 
+            <div class="swiper-pagination"></div>
+          </div>
+       </div>
+      </div>
+   </div>
+                                               <!-- Third-page start -->
+       
+    <div class="container-fluid third-pg mt-lg-5">
+        <div class="row">
+          <div class="col-lg-6 third-pg-left mt-lg-5">
+            <div class="swiper thirdpgSwiper bg-light">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+          <div class="col-lg-6 third-pg-right">
+            <h3><span>Our work process </span>make <br>your dream true</h3>
+            <div class="row mt-5">
+              <div class="col-3 circle text-center h5 p-2">1</div>
+              <div class="col-9 ps-5">
+                <h5>Perfection in Every Inch</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at, dolorem commodi animi quod consectetur dicta</p>
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-3 circle text-center h5 p-2">2</div>
+              <div class="col-9 ps-5">
+                <h5>Simple Idea & Design</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at, dolorem commodi animi quod consectetur dicta</p>
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-3 circle text-center h5 p-2">3</div>
+              <div class="col-9 ps-5">
+                <h5>Comfortable Support</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at, dolorem commodi animi quod consectetur dicta</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+     <script src="./script.js"></script>                                                       
+</body>
+</html>
